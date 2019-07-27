@@ -30,5 +30,5 @@ If you _do_ have a fever, a cough and your temperature is _above_ a 38 degree th
 Hitting submit `POST`'s the survey data to an API endpoint on AWS backed by an AWS lambda function that saves the
 survey in JSON format in an S3 bucket:
 
-
+![S3 bucket list ](s3_bucket_list.png)
 
