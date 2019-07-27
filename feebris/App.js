@@ -85,7 +85,7 @@ export default class App extends Component {
             />
             
             <TouchableHighlight style={styles.button} onPress={this.onPress.bind(this)} underlayColor='#99d9f4'>
-              <Text style={styles.buttonText}>Save</Text>
+              <Text style={styles.buttonText}>Submit</Text>
             </TouchableHighlight>
             
             <Text style={styles.result}>
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     fontSize: 20,
   },
-  diagnosis : {
+  diagnosis: {
     fontWeight: 'bold',
   }
 });
